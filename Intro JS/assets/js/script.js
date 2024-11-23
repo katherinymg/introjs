@@ -25,7 +25,7 @@ const valorSpan = document.querySelector (".valor-total")
 
 btnA.addEventListener('click', () => {
 cantidad.innerHTML++
-valorSpan.innerHTML = (cantidad.innerHTML * precio.innerHTML)
+valorSpan.innerHTML = (precioSpan.innerHTML * btnTexto.innerHTML)
 })
 
 
